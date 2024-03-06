@@ -1,0 +1,50 @@
+input {
+  padding: 10px;
+  margin-right: 20px;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+.match-list {
+  font-size: 20px;
+  border: 1px solid black;
+  width: fit-content;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 20px;
+  border-radius: 15px;
+  background-color: white;
+}
+.list-title {
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+li {
+  list-style-type: none;
+}
+
+button {
+  padding: 12px;
+  margin: 5px;
+  background-color: transparent;
+  border-radius: 7px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+button:hover {
+  background-color: white;
+}
+
+.pokemon-name {
+  font-family: cursive;
+  font-size: 45px;
+}
+
+.pokemon-number {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+img {
+  width: 250px;
+}
